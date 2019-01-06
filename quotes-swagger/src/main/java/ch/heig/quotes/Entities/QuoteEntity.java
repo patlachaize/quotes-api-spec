@@ -18,6 +18,12 @@ public class QuoteEntity {
 
     public QuoteEntity() {}
 
+    public QuoteEntity(int id, String author, String citation) {
+        this.id = id;
+        this.author = author;
+        this.citation = citation;
+    }
+
     public int getId() {
         return id;
     }
