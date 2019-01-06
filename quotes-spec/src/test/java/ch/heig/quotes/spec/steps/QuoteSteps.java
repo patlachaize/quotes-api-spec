@@ -22,7 +22,6 @@ public class QuoteSteps {
         quote = new Quote();
         quote.setAuthor("Coluche");
         quote.setCitation("Se pencher sur son passé, c'est risquer de tomber dans l'oubli.");
-        quote.setId(0);
     }
 
     @When("^I POST it to the /quotes endpoint$")

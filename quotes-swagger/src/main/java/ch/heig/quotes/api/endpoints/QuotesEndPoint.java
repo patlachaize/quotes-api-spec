@@ -2,6 +2,7 @@ package ch.heig.quotes.api.endpoints;
 
 import ch.heig.quotes.Entities.QuoteEntity;
 import ch.heig.quotes.api.QuotesApi;
+import ch.heig.quotes.api.exceptions.QuoteNotFoundException;
 import ch.heig.quotes.api.model.Quote;
 import ch.heig.quotes.repositories.QuoteRepository;
 import io.swagger.annotations.ApiParam;
@@ -40,9 +41,9 @@ public class QuotesEndPoint implements QuotesApi {
     }
 
     public ResponseEntity<Void> addQuoteUsingPOST(@ApiParam(value = "quote" ,required=true )  @Valid @RequestBody Quote quote) {
-        QuoteEntity quoteEntity = new QuoteEntity(
-                quote.getId(),quote.getAuthor(),quote.getCitation()
-        );
+        QuoteEntity quoteEntity = new QuoteEntity();
+        quoteEntity.setAuthor(quote.getAuthor());
+        quoteEntity.setCitation(quote.getCitation());
         QuoteEntity quoteAdded = quoteRepository.save(quoteEntity);
         URI uri = ServletUriComponentsBuilder
                 .fromCurrentRequest()
@@ -62,7 +63,8 @@ public class QuotesEndPoint implements QuotesApi {
             quote.setCitation(quoteEntity.getCitation());
             return new ResponseEntity<Quote>(quote, HttpStatus.OK);
         } else {
-            return ResponseEntity.notFound().build();
+//            return ResponseEntity.notFound().build();
+            throw new QuoteNotFoundException(id);
         }
     }
 
