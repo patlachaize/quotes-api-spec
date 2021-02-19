@@ -17,11 +17,7 @@ public class SwaggerDocumentationConfig {
         return new ApiInfoBuilder()
             .title("Api Documentation")
             .description("Api Documentation")
-            .license("Apache 2.0")
-            .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")
-            .termsOfServiceUrl("")
             .version("1.0")
-            .contact(new Contact("","", ""))
             .build();
     }
 
@@ -31,8 +27,6 @@ public class SwaggerDocumentationConfig {
                 .select()
                     .apis(RequestHandlerSelectors.basePackage("ch.heig.quotes.api"))
                     .build()
-                .directModelSubstitute(org.threeten.bp.LocalDate.class, java.sql.Date.class)
-                .directModelSubstitute(org.threeten.bp.OffsetDateTime.class, java.util.Date.class)
                 .apiInfo(apiInfo());
     }
 
