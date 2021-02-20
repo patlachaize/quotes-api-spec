@@ -2,20 +2,24 @@ package ch.heig.quotes.spec.steps;
 
 import ch.heig.quotes.ApiException;
 import ch.heig.quotes.ApiResponse;
-import ch.heig.quotes.api.QuotesendpointApi;
+import ch.heig.quotes.api.QuotesEndPointApi;
 import ch.heig.quotes.api.dto.Quote;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 import static org.junit.Assert.assertEquals;
 
 public class QuoteSteps {
 
-    private final QuotesendpointApi api = new QuotesendpointApi();
+    private final QuotesEndPointApi api = new QuotesEndPointApi();
     private Quote quote;
     private int statusCode;
+
+    public QuoteSteps() {
+        api.getApiClient().setBasePath("http://localhost:9090/api");
+    }
 
     @Given("^I have an quote payload$")
     public void i_have_an_quote_payload() throws Throwable {

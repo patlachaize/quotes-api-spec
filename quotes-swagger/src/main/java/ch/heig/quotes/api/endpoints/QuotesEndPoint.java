@@ -5,16 +5,12 @@ import ch.heig.quotes.api.QuotesApi;
 import ch.heig.quotes.api.exceptions.QuoteNotFoundException;
 import ch.heig.quotes.api.model.Quote;
 import ch.heig.quotes.repositories.QuoteRepository;
-import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import javax.validation.Valid;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +36,7 @@ public class QuotesEndPoint implements QuotesApi {
         return new ResponseEntity<List<Quote>>(quotes,HttpStatus.OK);
     }
 
-    public ResponseEntity<Void> addQuoteUsingPOST(@ApiParam(value = "quote" ,required=true )  @Valid @RequestBody Quote quote) {
+    public ResponseEntity<Void> addQuoteUsingPOST(Quote quote) {
         QuoteEntity quoteEntity = new QuoteEntity();
         quoteEntity.setAuthor(quote.getAuthor());
         quoteEntity.setCitation(quote.getCitation());
@@ -53,7 +49,7 @@ public class QuotesEndPoint implements QuotesApi {
         return ResponseEntity.created(uri).build();
     }
 
-    public ResponseEntity<Quote> listQuoteUsingGET(@ApiParam(value = "id",required=true) @PathVariable("id") Integer id) {
+    public ResponseEntity<Quote> listQuoteUsingGET(Integer id) {
         Optional<QuoteEntity> opt = quoteRepository.findById(id);
         if (opt.isPresent()) {
             QuoteEntity quoteEntity = opt.get();
