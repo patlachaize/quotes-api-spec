@@ -10,7 +10,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <springfox-version>3.0.0</springfox-version>
-        <openapi-generator-version>4.3.1</openapi-generator-version>
+        <openapi-generator-version>5.3.1</openapi-generator-version>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -45,8 +45,9 @@
                         </goals>
                         <configuration>
                             <inputSpec>${basedir}/src/main/resources/quotes.yaml</inputSpec>
-                            <language>spring</language>
+                            <generatorName>spring</generatorName>
                             <configOptions>
+                                <oas3>true</oas3>
                                 <useBeanValidation>true</useBeanValidation>
                                 <swaggerDocketConfig>false</swaggerDocketConfig>
                                 <interfaceOnly>true</interfaceOnly>
