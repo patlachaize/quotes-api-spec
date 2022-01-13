@@ -8,6 +8,7 @@ import ch.heig.quotes.repositories.QuoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -36,7 +37,7 @@ public class QuotesEndPoint implements QuotesApi {
         return new ResponseEntity<List<Quote>>(quotes,HttpStatus.OK);
     }
 
-    public ResponseEntity<Void> addQuoteUsingPOST(Quote quote) {
+    public ResponseEntity<Void> addQuoteUsingPOST(@RequestBody Quote quote) {
         QuoteEntity quoteEntity = new QuoteEntity();
         quoteEntity.setAuthor(quote.getAuthor());
         quoteEntity.setCitation(quote.getCitation());
