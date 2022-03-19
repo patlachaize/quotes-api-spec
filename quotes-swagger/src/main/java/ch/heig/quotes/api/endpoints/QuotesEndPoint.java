@@ -23,9 +23,14 @@ public class QuotesEndPoint implements QuotesApi {
     @Autowired
     private QuoteRepository quoteRepository;
 
-    public ResponseEntity<List<Quote>> listQuotesUsingGET()
+    public ResponseEntity<List<Quote>> listQuotesUsingGET(String author)
     {
-        List<QuoteEntity> quoteEntities= quoteRepository.findAll();
+        List<QuoteEntity> quoteEntities = null;
+        if (author == null) {
+            quoteEntities = quoteRepository.findAll();
+        } else {
+            quoteEntities= quoteRepository.findByAuthorLikeWithQuery("%"+author+"%");
+        }
         List<Quote> quotes  = new ArrayList<>();
         for (QuoteEntity quoteEntity : quoteEntities) {
             Quote quote = new Quote();

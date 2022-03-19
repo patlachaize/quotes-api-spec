@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="446fcd46-c20d-4efc-a267-799eff6a5ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-swagger/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes-swagger/quotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-swagger/quotes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-swagger/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/endpoints/QuotesEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/endpoints/QuotesEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/repositories/QuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/repositories/QuoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/resources/quotes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-swagger/src/main/resources/quotes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quotes-spec/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bdig/mail-swagger-cucumber" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -114,6 +111,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Register a new quote (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/quotes-spec/src/test/resources/scenarios/quotes.feature" />
+      <option name="GLUE" value="ch.heig.quotes.spec.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="quotes-spec" />
+      <option name="NAME_FILTER" value="^Register a new quote$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Register a new quote$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Register a new quote" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Register a new quote" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/quotes-spec/src/test/resources/scenarios/quotes.feature" />
+      <option name="GLUE" value="ch.heig.quotes.spec.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="quotes-spec" />
+      <option name="NAME_FILTER" value="^Register a new quote$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Register a new quote$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Register a new quote" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Swagger2SpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="quotes" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ch.heig.quotes.Swagger2SpringBoot" />
@@ -139,6 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Register a new quote (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Register a new quote" />
         <item itemvalue="Cucumber Java.Feature: quotes" />
         <item itemvalue="Cucumber Java.Scenario: Register a new application" />
       </list>
@@ -170,7 +209,19 @@
       <workItem from="1612963333178" duration="562000" />
       <workItem from="1613748905656" duration="14709000" />
       <workItem from="1641976008956" duration="561000" />
-      <workItem from="1642441534713" duration="4626000" />
+      <workItem from="1642441534713" duration="5260000" />
+      <workItem from="1642612133875" duration="211000" />
+      <workItem from="1642617743031" duration="3546000" />
+      <workItem from="1642947849907" duration="8503000" />
+      <workItem from="1643036510243" duration="353000" />
+      <workItem from="1643451374153" duration="259000" />
+      <workItem from="1643454479660" duration="57000" />
+      <workItem from="1643544320851" duration="904000" />
+      <workItem from="1643895132783" duration="34000" />
+      <workItem from="1647525545041" duration="1251000" />
+      <workItem from="1647590394221" duration="837000" />
+      <workItem from="1647601051366" duration="7095000" />
+      <workItem from="1647711231565" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="convert to OpenAPI 3.0">
       <created>1613761130967</created>
@@ -186,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613829613705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="with actuator httptrace">
+      <created>1642451267522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642451267522</updated>
+    </task>
+    <task id="LOCAL-00004" summary="with actuator httptrace">
+      <created>1642451286885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642451286885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="convert to OpenAPI 3.0" />
     <MESSAGE value="convert to SpringDoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert to SpringDoc" />
+    <MESSAGE value="with actuator httptrace" />
+    <option name="LAST_COMMIT_MESSAGE" value="with actuator httptrace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

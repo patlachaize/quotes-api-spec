@@ -13,6 +13,12 @@ paths:
         - quotes-end-point
       description: Liste toutes les quotes
       operationId: listQuotesUsingGET
+      parameters:
+        - in: query
+          name: author
+          required: false
+          schema:
+            type: string
       responses:
         '200':
           description: OK
