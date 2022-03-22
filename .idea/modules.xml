@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/quotes-swagger/quotes.iml" filepath="$PROJECT_DIR$/quotes-swagger/quotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quotes-api/quotes.iml" filepath="$PROJECT_DIR$/quotes-api/quotes.iml" />
       <module fileurl="file://$PROJECT_DIR$/quotes-spec/quotes-spec.iml" filepath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" />
     </modules>
   </component>

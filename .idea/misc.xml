@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/quotes-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/quotes-spec/pom.xml" />
+        <option value="$PROJECT_DIR$/quotes-api/pom.xml" />
       </list>
     </option>
   </component>
