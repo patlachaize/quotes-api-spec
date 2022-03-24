@@ -5,54 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="446fcd46-c20d-4efc-a267-799eff6a5ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_3_14_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_4_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_gsonfire_gson_fire_1_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gsonfire_gson_fire_1_8_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes-api/quotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/quotes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-spec/src/test/java/ch/heig/quotes/spec/SpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/src/test/java/ch/es/pl/quotes/spec/SpecificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-spec/src/test/java/ch/heig/quotes/spec/steps/QuoteSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/src/test/java/ch/es/pl/quotes/spec/steps/QuoteSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.swagger-codegen-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.swagger-codegen-ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/.swagger-codegen/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/.swagger-codegen/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/quotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/quotes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/Entities/QuoteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/Entities/QuoteEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/RFC3339DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/RFC3339DateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/Swagger2SpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/Swagger2SpringBoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/endpoints/QuotesEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/api/endpoints/QuotesEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/exceptions/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/api/exceptions/ApiException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/api/exceptions/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/exceptions/QuoteNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/api/exceptions/QuoteNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/util/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/api/util/ApiOriginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/api/util/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/api/util/ApiResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/configuration/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/configuration/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/configuration/HttpTraceActuatorConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/configuration/OpenApiDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/configuration/OpenApiDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/java/ch/heig/quotes/repositories/QuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/java/ch/es/pl/quotes/repositories/QuoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/resources/quotes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/resources/quotes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-swagger/src/main/resources/quotesSwagger2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/src/main/resources/quotesSwagger2.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +47,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Logiciels/apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -100,6 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -107,7 +80,7 @@
       <recent name="C:\github\quotes-swagger-cucumber\quotes-swagger\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Register a new quote">
+  <component name="RunManager" selected="Cucumber Java.Feature: quotes">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -115,26 +88,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Register a new quote" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/quotes-spec/src/test/resources/scenarios/quotes.feature" />
-      <option name="GLUE" value="ch.es.pl.quotes.spec.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="quotes-spec" />
-      <option name="NAME_FILTER" value="^Register a new quote$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Register a new quote$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Register a new quote" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +139,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: quotes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/quotes-spec/src/test/resources/scenarios/quotes.feature" />
+      <option name="GLUE" value="ch.es.pl.quotes.spec.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="quotes-spec" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: quotes" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Register a new quote" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/quotes-spec/src/test/resources/scenarios/quotes.feature" />
+      <option name="GLUE" value="ch.es.pl.quotes.spec.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="quotes-spec" />
+      <option name="NAME_FILTER" value="^Register a new quote$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Register a new quote$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Register a new quote" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Swagger2SpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="quotes" />
       <extension name="coverage">
@@ -217,8 +209,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Register a new quote" />
+        <item itemvalue="Cucumber Java.Feature: quotes" />
         <item itemvalue="Spring Boot.Swagger2SpringBoot" />
+        <item itemvalue="Cucumber Java.Scenario: Register a new quote" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +256,8 @@
       <workItem from="1647711231565" duration="355000" />
       <workItem from="1647942835338" duration="1539000" />
       <workItem from="1647945035342" duration="4038000" />
+      <workItem from="1648029405274" duration="943000" />
+      <workItem from="1648112502033" duration="2521000" />
     </task>
     <task id="LOCAL-00001" summary="convert to OpenAPI 3.0">
       <created>1613761130967</created>
@@ -303,63 +298,5 @@
     <MESSAGE value="convert to SpringDoc" />
     <MESSAGE value="with actuator httptrace" />
     <option name="LAST_COMMIT_MESSAGE" value="with actuator httptrace" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="332" y="141" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647945809078">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="332" y="141" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647945809078" />
-    <state x="685" y="206" key="FileChooserDialogImpl" timestamp="1647945088857">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="685" y="206" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647945088857" />
-    <state width="1242" height="234" key="GridCell.Tab.0.bottom" timestamp="1647954077469">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1647954077469" />
-    <state width="1242" height="234" key="GridCell.Tab.0.center" timestamp="1647954077469">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1647954077469" />
-    <state width="1242" height="234" key="GridCell.Tab.0.left" timestamp="1647954077469">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1647954077469" />
-    <state width="1242" height="234" key="GridCell.Tab.0.right" timestamp="1647954077469">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1647954077469" />
-    <state width="1242" height="234" key="GridCell.Tab.1.bottom" timestamp="1647952228575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1647952228575" />
-    <state width="1242" height="234" key="GridCell.Tab.1.center" timestamp="1647952228575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1647952228575" />
-    <state width="1242" height="234" key="GridCell.Tab.1.left" timestamp="1647952228575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1647952228575" />
-    <state width="1242" height="234" key="GridCell.Tab.1.right" timestamp="1647952228575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1242" height="234" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1647952228575" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/quotes-spec/src/test/java/ch/es/pl/quotes/spec/steps/QuoteSteps.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/quotes-spec/src/test/java/ch/es/pl/quotes/spec/steps/QuoteSteps.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
