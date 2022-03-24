@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="446fcd46-c20d-4efc-a267-799eff6a5ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_3_14_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_4_9_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_gsonfire_gson_fire_1_8_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gsonfire_gson_fire_1_8_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-api/quotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-api/quotes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes-spec/quotes-spec.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +61,7 @@
       <recent name="C:\github\quotes-swagger-cucumber\quotes-swagger\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: quotes">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Register a new quote">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -209,9 +190,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Register a new quote" />
         <item itemvalue="Cucumber Java.Feature: quotes" />
         <item itemvalue="Spring Boot.Swagger2SpringBoot" />
-        <item itemvalue="Cucumber Java.Scenario: Register a new quote" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +238,7 @@
       <workItem from="1647942835338" duration="1539000" />
       <workItem from="1647945035342" duration="4038000" />
       <workItem from="1648029405274" duration="943000" />
-      <workItem from="1648112502033" duration="2521000" />
+      <workItem from="1648112502033" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="convert to OpenAPI 3.0">
       <created>1613761130967</created>
@@ -287,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642451286885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Versions update">
+      <created>1648115108277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648115108278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +285,7 @@
     <MESSAGE value="convert to OpenAPI 3.0" />
     <MESSAGE value="convert to SpringDoc" />
     <MESSAGE value="with actuator httptrace" />
-    <option name="LAST_COMMIT_MESSAGE" value="with actuator httptrace" />
+    <MESSAGE value="Versions update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versions update" />
   </component>
 </project>
